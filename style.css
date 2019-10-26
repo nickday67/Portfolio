@@ -1,9 +1,7 @@
-* {
-    box-sizing: border-box;
-}
-  
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 0%;
 }
 
 /* footer {
