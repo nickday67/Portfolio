@@ -1,19 +1,75 @@
 body {
     box-sizing: border-box;
+    
+}
+
+#navbar {
+
+}
+
+#headshot {
+    width: 15em;
+    height: 15em;
+    margin: 0 auto;
+    padding: 20px 25px;
+}
+
+#bio {
+    text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: 0%;
+    line-height:1.8em;
+    color:rgb(10, 10, 10);
+    background-color:#ffffff;
+    /* margin: 0 auto;
+    padding: 20px 35px; */
 }
 
-/* footer {
+#mywork {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    line-height:1.8em;
+    color:rgb(10, 10, 10);
+    background-color:#ffffff;
+    /* margin: 0 auto;
+    padding: 20px 35px; */
 }
 
-.hamburger {
-    display: flex;
-    flex-direction: row-reverse;
-    position: fixed;
+.row {
+
 }
 
-@media screen and (min-width: 700px) {
-    .hamburger {
-        display: none;
-    } */
+.container {
+    margin: 0 auto;
+    padding: 20px 35px;
+}
+
+.links {
+
+}
+
+.link-color {
+
+}
+
+.jumper {
+
+}
+
+.image-fit {
+    border-radius: 100%;
+    border: ;
+    width: 100%;
+}
+
+.image {
+    margin: 0 auto;
+    border: ;
+    width: 800px;
+}
+
+footer {
+    width: 100%; 
+    text-align: center; 
+    margin-top: 100px;
+}
+
