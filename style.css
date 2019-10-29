@@ -2,15 +2,82 @@ body {
     box-sizing: border-box;
 }
 
-#navbar {
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 15px;
+    cursor: pointer;
+}
 
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #1520b8;
+	display: block;
+	border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+#bar1{
+	transform: translateY(-4px);
+}
+
+#bar3{
+	transform: translateY(4px);
+}
+
+.nav li a{
+	color: rgb(9, 24, 241);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+    color: forestgreen;
+}
+
+.nav li{
+	list-style: none;
+    padding: 16px 0;
+}
+
+.nav{
+	padding: 0;
+	margin: 0 15px;
+	transition: 0.4s ease;
+    display: none;
+    font-family: 'Exo 2', sans-serif;
+    position: absolute;
+}
+
+.change .bar {
+	background-color: #1520b8;
+}
+
+.change #bar1 {
+	transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+	opacity: 0;
+}
+
+.change #bar3 {
+	transform: translateY(-6px) rotate(45deg);
+}
+
+.change {
+	display: block;
 }
 
 #headshot {
     width: 10em;
     height: 10em;
     margin: 0 auto;
-    padding: 15px 25px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 #bio {
@@ -19,8 +86,6 @@ body {
     line-height:1.8em;
     color:rgb(10, 10, 10);
     background-color:#ffffff;
-    /* margin: 0 auto;
-    padding: 20px 35px; */
 }
 
 #mywork {
@@ -29,16 +94,10 @@ body {
     line-height:1.8em;
     color:rgb(10, 10, 10);
     background-color:#ffffff;
-    /* margin: 0 auto;
-    padding: 20px 35px; */
 }
 
 h1 {
     padding-bottom: 20px;
-}
-
-.row {
-
 }
 
 .container {
@@ -46,16 +105,18 @@ h1 {
     padding: 20px 35px;
 }
 
-.links {
-
-}
-
 .link-color {
     color: black;
+    font-family: 'Exo 2', sans-serif;
 }
 
-.jumper {
+a:hover {
+    font-weight: bold;
+    color: forestgreen;
+}
 
+a:visited {
+    color: orange;
 }
 
 .image-fit {
@@ -74,7 +135,7 @@ h1 {
 
 footer {
     width: 100%; 
-    text-align: center; 
+    text-align: center;
     margin-top: 100px;
 }
 
@@ -89,7 +150,9 @@ footer {
         width: 15em;
         height: 15em;
         margin: 0 auto;
-        padding: 20px 25px;
+        padding-top: 55px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 
     .image {
@@ -112,7 +175,9 @@ footer {
         width: 15em;
         height: 15em;
         margin: 0 auto;
-        padding: 20px 25px;
+        padding-top: 55px;
+        padding-right: 25px;
+        padding-left: 25px;
     }
 
     .image {

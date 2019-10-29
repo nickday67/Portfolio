@@ -9,17 +9,20 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <nav id="navbar">
-        <div class="row">
-            <ul class="links">            
-                <li><a class="jumper" href="#bio">Bio</a></li>
-                <li><a class="jumper" href="#mywork">My Work</a></li>
-                <li><a target="_blank" href="https://github.com/nickday67">GitHub</a></li>
-                <li><a target="_blank" href="https://www.linkedin.com/in/nickeday/">LinkedIn</a></li>
-            </ul>
+<body>    
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
         </div>
-    </nav>
+        <ul class="nav" id="nav">            
+            <li><a class="jumper" href="#bio">Bio</a></li>
+            <li><a class="jumper" href="#mywork">My Work</a></li>
+            <li><a target="_blank" href="https://github.com/nickday67">GitHub</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/nickeday/">LinkedIn</a></li>
+        </ul>
+    </div>
 
     <section class="container">
         <div id="headshot">
@@ -30,7 +33,7 @@
     <section class="container">
         <div id="bio">
             <h1>Hi, I'm Nick Day.</h1>
-            <p>Coding has become a new found pleasure and love of mine. To help guide me through my studies, I enrolled in a Fullstack / Engineering bootcamp course and will be graduating in early 2020. Learning how to build on the front end and comprehending how things work on the back-end are both fun, fascinating and highly intriguing.</p>
+            <p>Coding has become a new found pleasure of mine and to help guide me, I enrolled in a Fullstack / Engineering bootcamp course, which I'll be graduating from in early 2020. Learning how to build on the front end and comprehending how things work on the back-end are both fascinating and highly intriguing.</p>
             <p>When I'm not coding, I'm working with customers online and helping with their network infrasture. I'm aslo a ginormous nerd, lover of all things technology and PC gamer. Outside of technology I love practicing drums, playing ice hockey and weight lifting in the gym like a maniac. Oh, and I'm a coffee fiend!</p>
         </div>
     </section>
@@ -38,7 +41,7 @@
     <section class="container">
         <div id="mywork">
             <h2>My Work:</h2>
-            <p>In this 'Thinkful' bootcamp project, I developed a "quiz app" which tests the users on their knowledge of X-Men characters based on the comic books and 1990's TV show. If you love the X-Men and/or a nerd like me, then you'll appreciate this app! I used JavaScript and jQuery (along with the obvious HTML5 & CSS).</p>
+            <p>In this 'Thinkful' bootcamp project, I developed a "quiz app" that tests the users on their knowledge of X-Men characters based on the comic books and 1990's TV show. If you love the X-Men and/or a nerd like me, then you'll appreciate this app! I used JavaScript and jQuery (along with HTML5 & CSS).</p>
             <a href="https://github.com/nickday67/WebApp"><img class="image" src="Images/StartQuiz.png"></a>
             <a class="link-color" href="https://nickday67.github.io/WebApp/">Quiz App Demo</a>            
         </div>
@@ -47,6 +50,6 @@
     <footer>        
         <a class="link-color" href="mailto:thenickday@icloud.com">My door is always open!</a>
     </footer>
-    <script type="text/javascript" src="js/script.js"></script>	
+    <script type="text/javascript" src="script.js"></script>	
 </body>
 </html>
